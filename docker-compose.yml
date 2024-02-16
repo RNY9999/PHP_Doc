@@ -1,0 +1,8 @@
+version: '3'
+services:
+  php:
+    image: php:8.3.3RC1-apache-bullseye
+    ports:
+      - 8080:80
+    volumes:
+      - ./src/:/var/www/html/

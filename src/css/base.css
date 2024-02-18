@@ -1,0 +1,14 @@
+@import "./imports/destyle.css";
+@import "./valiables.css";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+* {
+    font-family: "Noto Sans JP", sans-serif;
+    color: var(--font-normal);
+}
+
+body {
+    background-color: var(--bg-block);
+    width: 100%;
+    min-height: 100vh;
+}

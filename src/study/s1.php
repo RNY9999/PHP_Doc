@@ -6,8 +6,8 @@ $login_flag = false;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/pages/top.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/pages/top.css">
     <title>PHP マニュアル</title>
 </head>
 <body>
@@ -25,11 +25,16 @@ $login_flag = false;
             </ul>
         </nav>
     </header>
-    <main>
-        <div class="study">
-            <h2 class="study__title">今日の勉強を</h2>
-            <a href="./study/study_index.php">勉強する</a>
-        </div>
+    <main class="main">
+        <a href="study_index.php">戻る</a>
+        <h2 class="main__title">基本的な構文</h2>
+        <!-- phpタグ -->
+        <?php 
+        echo 'XHTMLまたはXMLドキュメントの中でPHPコードを扱いたい場合は、このタグを使いましょう'; 
+        echo '<br>';
+        ?>
+        <!-- echoタグを短縮形で表示 -->
+        <?= 'この文字列を表示' ?>
     </main>
     <footer>
 

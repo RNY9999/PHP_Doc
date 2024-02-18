@@ -6,8 +6,8 @@ $login_flag = false;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/pages/top.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/pages/top.css">
     <title>PHP マニュアル</title>
 </head>
 <body>
@@ -26,9 +26,12 @@ $login_flag = false;
         </nav>
     </header>
     <main>
-        <div class="study">
-            <h2 class="study__title">今日の勉強を</h2>
-            <a href="./study/study_index.php">勉強する</a>
+        <div class="index">
+            <ol class="studyList">
+                <li class="studyList__item">
+                    <a href="s1.php">基本的な構文</a>
+                </li>
+            </ol>
         </div>
     </main>
     <footer>

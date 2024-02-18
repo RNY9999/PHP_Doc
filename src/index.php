@@ -7,8 +7,8 @@
     <title>PHP マニュアル</title>
 </head>
 <body>
-    <header>
-        <h1>PHPマニュアル</h1>
+    <header class="header">
+        <h1 header__title>PHPマニュアル勉強用</h1>
     </header>
     <main>
     </main>

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
 /*! destyle.css v4.0.1 | MIT License | https://github.com/nicolas-cusan/destyle.css */
 /* Reset box-model and set borders */
 /* ============================================ */
@@ -387,4 +388,11 @@ th {
 th {
   text-align: left;
   font-weight: bold;
+}
+
+/*------------------------------------------------------------------------------
+#color
+------------------------------------------------------------------------------*/
+body {
+  background-color: #282C34;
 }

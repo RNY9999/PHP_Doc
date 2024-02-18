@@ -1,0 +1,45 @@
+@use "_valiables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+@mixin font-16px($coler, $weight, $type) {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    color: $coler;
+    font-weight: $weight;
+    @if($type == "headline") {
+        line-height: 120%;
+    } @elseif($ytpe == "text") {
+        line-height: 180%;
+        letter-spacing: .05em;
+    } @else {
+        line-height: 100%;
+    }
+}
+@mixin font-24px($coler, $weight, $type) {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    color: $coler;
+    font-weight: $weight;
+    @if($type == "headline") {
+        line-height: 120%;
+    } @elseif($ytpe == "text") {
+        line-height: 180%;
+        letter-spacing: .05em;
+    } @else {
+        line-height: 100%;
+    }
+}
+@mixin font-10px($coler, $weight, $type) {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    color: $coler;
+    font-weight: $weight;
+    @if($type == "headline") {
+        line-height: 120%;
+    } @elseif($ytpe == "text") {
+        line-height: 180%;
+        letter-spacing: .05em;
+    } @else {
+        line-height: 100%;
+    }
+}

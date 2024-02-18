@@ -1,0 +1,14 @@
+@use "../foundation/font.scss" as fn;
+@use "../foundation/valiables.scss" as v;
+
+
+.l-header {
+    width: 100%;
+    height: 50px;
+    box-shadow: rgba($color: #000000, $alpha: 1.0);
+
+    &__title {
+        @include fn.font-24px(v.$fn_green, 500, "headline");
+    }
+}
+

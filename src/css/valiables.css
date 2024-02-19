@@ -1,6 +1,10 @@
 :root {
     --bg-block: #282C34;
+    --bg-white: #DCDFE4;
     --bg-hover: #E5C07B;
     --font-normal: #98C379;
+    --font-black: #282C34;
     --font-hover: #282C34;
+    --btn: #DCDFE4;
+    --btn-hover: #fff;
 }

@@ -29,7 +29,10 @@ $login_flag = false;
         <div class="index">
             <ol class="studyList">
                 <li class="studyList__item">
-                    <a href="s1.php">基本的な構文</a>
+                    <a href="s1.php">1. 基本的な構文</a>
+                </li>
+                <li class="studyList__item">
+                    <a href="s2.php">2. 型</a>
                 </li>
             </ol>
         </div>

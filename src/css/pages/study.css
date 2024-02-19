@@ -1,0 +1,59 @@
+@import "../valiables.css";
+@import "../common/header.css";
+@import "../common/footer.css";
+
+/*==============================================================================
+#button
+==============================================================================*/
+
+.back-button {
+    width: 120px;
+    border-radius: 8px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em .5em;
+    background-color: var(--btn);
+    /* background-color: var(--bg-block); */
+    color: var(--font-black);
+    transition: .2s;
+    margin-bottom: 30px;
+}
+
+.back-button:hover {
+    background-color: var(--btn-hover);
+}
+
+/*==============================================================================
+#study-area
+==============================================================================*/
+
+.study-area h1,
+.study-area h2,
+.study-area h4,
+.study-area h4,
+.study-area h5,
+.study-area h6,
+.study-area p,
+.study-area a,
+.study-area button,
+.study-area div {
+    color: var(--font-black);
+}
+
+.study-area {
+    background-color: var(--bg-white);
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.study-area__title {
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    padding: .5em 0;
+    display: flex;
+    justify-content: center;
+}

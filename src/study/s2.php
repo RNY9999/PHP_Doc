@@ -33,13 +33,39 @@ $login_flag = false;
             <h2 class="study-area__title">基本的な構文</h2>
             <div class="study-area__write">
                 <!-- ここから下に勉強用のコードを記述 -->
-                <!-- phpタグ -->
-                <?php 
-                echo 'XHTMLまたはXMLドキュメントの中でPHPコードを扱いたい場合は、このタグを使いましょう'; 
-                echo '<br>';
+                <?php
+                // phpの型
+                // null, bool, int, float, string, array, object, callable, resource
+                $a_bool = true; //bool
+                $a_str = "foo"; //string
+                $a_str2 = 'foo'; //string
+                $a_int = 12; //int
+                
+                //型を知りたいときは get_debug_type()
+                echo get_debug_type($a_bool), "<br>";
+                echo get_debug_type($a_str), "<br>";
+                
+                //式と型を知りたいときはvar_dump()
+                echo var_dump($a_int), "<br>";
+                echo var_dump(is_int($a_str)), "<br>";
+                echo var_dump(is_string($a_str)), "<br>";
+
+                if (is_int($a_int)) {
+                    echo "<p>これはintです。値: " . $a_int*$a_int . "</p>";
+                }
+
+                //null型
+                $big_null = NULL;
+                $small_null = null;
+
+                if (is_null($big_null)) {
+                    echo "<p>大文字のNULLです</p>";
+                }
+                if (is_null($small_null)) {
+                    echo "<p>小文字のnullです</p>";
+                }
+
                 ?>
-                <!-- echoタグを短縮形で表示 -->
-                <?= 'この文字列を表示' ?>
                 <!-- ここまでコード記述 -->
             </div>
         </section>

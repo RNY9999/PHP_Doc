@@ -65,6 +65,31 @@ $login_flag = false;
                     echo "<p>小文字のnullです</p>";
                 }
 
+                //boolean
+                $bool = true;
+                if ($bool) {
+                    echo "<p>bool = true</p>";
+                }
+                $bool = false;
+                if (!$bool) {
+                    echo "<p>bool = false</p>";
+                }
+
+                // キャストでfalseになるもの
+                // これ以外はtrueになるらしいです
+                $bool_b = (bool)false;
+                $bool_num = (bool)0;
+                $bool_float = (bool)0.0;
+                $bool_str = (bool)'';
+                $bool_strzero = (bool)'0';
+                $bool_array = (bool)[];
+
+                echo var_dump($bool_b) . "<br>";
+                echo var_dump($bool_num) . "<br>";
+                echo var_dump($bool_float) . "<br>";
+                echo var_dump($bool_str) . "<br>";
+                echo var_dump($bool_strzero) . "<br>";
+                echo var_dump($bool_array) . "<br>";
                 ?>
                 <!-- ここまでコード記述 -->
             </div>

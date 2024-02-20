@@ -34,6 +34,9 @@ $login_flag = false;
                 <li class="studyList__item">
                     <a href="s2.php">2. 型</a>
                 </li>
+                <li class="studyList__item">
+                    <a href="s3.php">3. 関数</a>
+                </li>
             </ol>
         </div>
     </main>
